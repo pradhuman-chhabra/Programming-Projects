@@ -28,7 +28,7 @@ int main()
     int arr[5],i;
     //Taking input from the user.
     printf("enter 5 numbers:");
-    for (i=0;i<=4;i++)
+    for (i=0;i<= sizeof(arr[5]);i++)
     {
     scanf("%d",&arr[i]);
     }
